@@ -4,25 +4,29 @@
       "tag": "saudacoes",
       "patterns": [
         "Oi",
-		"Oie",
-		"Ola",
+        "Oie",
+        "Ola",
         "Ola",
         "Como vai?",
         "oii?",
         "salve",
         "hello",
-		"pode me ajudar?"
-		
+        "pode me ajudar?"
       ],
-      "responses": [ 
-        "Oi, como sua  lavadora de roupas inteligente, em que posso ajudar?",
-        "Ola, sou a lavadora de roupas inteligente, em que posso ajudar??"
+      "responses": [
+        "Oi, sou o Bot Medland, meu intuito é te trazer informações de maneira confiável! Para buscar informação sobre algum assunto Digite: 1 - nome do assunto! para receber nosso compilado de links úteis digite links úteis",
+        "Ola, sou o Bot Medland, meu intuito é te trazer informações de maneira confiável! Para buscar informação sobre algum assunto Digite: 1 - nome do assunto! para receber nosso compilado de links úteis digite links úteis"
       ]
     },
-	
     {
       "tag": "tchau",
-      "patterns": ["Bye", "tchau", "xau", "falou", "adeus"],
+      "patterns": [
+        "Bye",
+        "tchau",
+        "xau",
+        "falou",
+        "adeus"
+      ],
       "responses": [
         "Te vejo depois!",
         "Tenha um bom dia",
@@ -30,17 +34,33 @@
       ]
     },
     {
-      "tag": "obrigado",     
-      "patterns": ["Thanks", "brigado", "obrigado", "me ajudou!", "valeu!", "me ajudou", "valeu"],
-      "responses": ["Fico feliz!", "qualquer hora!!", "É sempre um prazer"]
+      "tag": "assunto",
+      "patterns": [
+        "1 - ",
+        "1- ",
+        "1 -",
+        "1 - assunto"
+      ],
+      "responses": [
+        "busca"
+      ]
     },
-	
-	 	
-	{
-      "tag": "tempo",     
-      "patterns": ["Previsão?", "Previsão do tempo", "qual a previsão do tempo", "previsão" , "clima"],
-      "responses": ["tempo"]
+    {
+      "tag": "obrigado",
+      "patterns": [
+        "Thanks",
+        "brigado",
+        "obrigado",
+        "me ajudou!",
+        "valeu!",
+        "me ajudou",
+        "valeu"
+      ],
+      "responses": [
+        "Fico feliz!",
+        "qualquer hora!!",
+        "É sempre um prazer"
+      ]
     }
-    
   ]
 }
